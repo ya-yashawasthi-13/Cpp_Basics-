@@ -50,3 +50,13 @@ int main()
 
     printmap(m);
 }
+
+/* map<string, string> m;
+ m[1] = "acb"; // 0 log(n)
+ m[3] = "xyz";
+ m[2] = "lmn";
+
+m["abc"] = "abc"; // s.size * log(n)
+
+m.insert(make_pair(4, "pqr"));
+m.insert({4,"pqr"}) ;*/
