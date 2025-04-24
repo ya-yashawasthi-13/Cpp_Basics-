@@ -5,6 +5,15 @@
 #include <string>
 using namespace std;
 
+void printmap(map<int, string> m)
+{
+    cout << "Size :" << m.size() << endl;
+    for (auto &pr : m)
+    {
+        cout << pr.first << " " << pr.second << endl;
+    }
+}
+
 int main()
 {
     map<int, string> m;
@@ -21,8 +30,10 @@ int main()
         cout << (*it).first << " " << (*it).second << endl;
     }*/
 
-    for (auto &pr : m)
+    /* for (auto &pr : m)
     {
         cout << pr.first << " " << pr.second << endl;
-    }
+    }*/
+
+    printmap(m);
 }
