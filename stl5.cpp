@@ -12,7 +12,7 @@ void printvec(vector<pair<int, int>> v)
     }
 }
 
-// nested vwctor with pair
+// nested vector with pair
 int main()
 {
     vector<pair<int, int>> v; //  manual initialise  {{1, 2}, {2, 3}, {3, 4}};
